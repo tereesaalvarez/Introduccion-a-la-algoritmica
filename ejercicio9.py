@@ -22,7 +22,6 @@ def introducir_nota(i):
     return nota
 
 
-
 if __name__=="__main__":
     notas=[]
     for i in range(3):
