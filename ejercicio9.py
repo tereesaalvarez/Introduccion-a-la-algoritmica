@@ -9,9 +9,13 @@ class media_notas:
         return round(media_aritmetica)
 
 def introducir_nota:
+    nota= input("introducie la nota")
     while true:
         try:
             nota = float(nota)
+            break
+        except:
+            print ("Cambia la coma por un punto")
 
 
 
