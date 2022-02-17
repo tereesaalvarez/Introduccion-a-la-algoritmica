@@ -1,14 +1,14 @@
 class media_notas:
-    
+    def __init__():
         self.nota1=nota1
         self.nota2=nota2
         self.nota3=nota3
-    def media_aritmetica:
+    def media_aritmetica():
             return (self.nota1+self.nota2+self.nota3)/3
-    def media_ponderada:
+    def media_ponderada():
         return round(media_aritmetica)
 
-def introducir_nota:
+def introducir_nota():
     nota= input("introducie la nota")
     while true:
         try:
