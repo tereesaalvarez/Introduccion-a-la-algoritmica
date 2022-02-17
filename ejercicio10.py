@@ -8,4 +8,5 @@ class triangulo:
 
 if __name__ == "__main__":
     lado= dame_datos("lado")
-    
+    alto= dame_datos("altura")
+    resultado= Triangulo(alto,lado)
