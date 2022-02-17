@@ -9,6 +9,9 @@ class media_notas:
         return round(media_aritmetica)
 
 def introducir_nota:
+    while true:
+        try:
+            nota = float(nota)
 
 
 
