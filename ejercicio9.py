@@ -5,6 +5,9 @@ class media_notas:
     self.nota2=nota2
     self.nota3=nota3
 
+    def media_ponderada:
+        return round(media_aritmetica)
+
 
 
 
