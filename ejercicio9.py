@@ -8,7 +8,7 @@ class media_notas:
     def media_ponderada(self, media_aritmetica):
         return round(media_aritmetica)
 
-def introducir_nota():
+def introducir_nota(i):
    
     while true:
         nota=input("Introduce nota:")
@@ -23,6 +23,11 @@ def introducir_nota():
 
 
 
+if __name__=="__main__":
+    notas=[]
+    for i in range(3):
+        n= introducir_nota(i)
+        notas.append(n)
 
 
-if __name__=="__main__"
+total = media_aritmetica
