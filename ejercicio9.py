@@ -29,4 +29,6 @@ if __name__=="__main__":
         notas.append(n)
 
 
-total = media_aritmetica
+total = media_aritmetica(notas[0], notas[1], notas[2])
+print("La media aritmetia es: {}".format(total.media_aritmetica()))
+print("La media ponderada es: {}".format(total.media_ponderada(total.media_aritmetica)))
