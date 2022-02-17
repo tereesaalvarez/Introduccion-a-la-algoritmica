@@ -10,7 +10,11 @@ def datos():
         numero= input("introduce numero".format(dato))
         try:
             numero = float()
-
+            break
+        except:
+            print("Introduzca un valor que sirva")
+            pass
+        return numero
 
 
 if __name__ == "__main__":
