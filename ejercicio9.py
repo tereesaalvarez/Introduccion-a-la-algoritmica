@@ -11,11 +11,15 @@ class media_notas:
 def introducir_nota():
    
     while true:
+        nota=input("Introduce nota:")
+
         try:
             nota = float(nota)
             break
         except:
             print ("Cambia la coma por un punto")
+            pass
+        return nota
 
 
 
