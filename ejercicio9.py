@@ -19,7 +19,7 @@ def introducir_nota():
         except:
             print ("Cambia la coma por un punto")
             pass
-        return nota
+    return nota
 
 
 
