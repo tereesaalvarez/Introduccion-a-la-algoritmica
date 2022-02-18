@@ -10,7 +10,7 @@ class media_notas:
 
 def introducir_nota(i):
    
-    while true:
+    while True:
         nota=input("Introduce nota:")
 
         try:
