@@ -1,6 +1,7 @@
 # INTRODUCCIÓN A LA ALGORITMICA
 
-
+Trabajo hecho por Teresa Álvarez.
+La direccion de github para este repositorio es la siguiente: 
 
 
 # Ejercicio 8: Porcentajes, IVA e inversiones
