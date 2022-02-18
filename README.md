@@ -1,6 +1,7 @@
 # INTRODUCCIÓN A LA ALGORITMICA
 
 Trabajo hecho por Teresa Álvarez.
+
 La direccion de github para este repositorio es la siguiente:  https://github.com/tereesaalvarez/Introduccion-a-la-algoritmica.git
 
 
