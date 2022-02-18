@@ -6,7 +6,7 @@ class triangulo:
         return(self.alto*self.lado)/2
 
 def datos(dato):
-    while true:
+    while True:
         numero= input("introduce numero {}".format(dato))
         try:
             numero = float(numero)
@@ -18,7 +18,7 @@ def datos(dato):
 
 
 if __name__ == "__main__":
-    lado= dame_datos("lado")
-    alto= dame_datos("altura")
-    resultado= Triangulo(alto,lado)
+    lado= datos("lado")
+    alto= datos("altura")
+    resultado= triangulo(alto,lado)
     print("el area del triangulo es {}".format(resultado.area()))
