@@ -10,6 +10,23 @@
 
 2. Escribir un algoritmo que calcula el importe de los intereses generados por un capital invertido a un interés dado durante un tiempo dado, expresado en meses.
 
+* Algoritmo 1:
+
+      Algoritmo impuestos
+        Entrada
+          precio: Real
+            -Valor de un producto
+        Precondición
+          precio>0
+        Constante
+          IVA: Real- 0.21
+            porcentaje del precio inicial que se suma para calcular el precio final
+        Realización
+          -
+            calcular el precio con el IVA. Cabe destacar que consideramos el IVA como único impuesto porque no se especifica ninguno más en el enunciado.
+            precio = precio + precio*IVA
+          -
+        fin impuestos
 
 # Ejercicio 9: Media aritmética ponderada
 
